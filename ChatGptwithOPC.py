@@ -19,7 +19,7 @@ cv2.destroyAllWindows()
 # my_file.write(txt + '\n')
 # my_file.close()
 
-openai.api_key = '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'
+openai.api_key = 'sk-'
 
 
 while True:
