@@ -1,5 +1,5 @@
 import openai
-openai.api_key = "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"  # supply your API key however you choose
+openai.api_key = "sk-"  # supply your API key however you choose
 f = open("prueba2.m4a", "rb")
 
 transcript= openai.Audio.transcribe("whisper-1", f)
